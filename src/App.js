@@ -14,11 +14,25 @@ class App extends Component {
         <p className="App-intro">
           
         </p>
-        <img src={moviecover} className="MovieCover"/>
+        
+        <div className="container">
+        
+          <div className="item"><h2>Black Mirror</h2></div>
+          <div className="item"><h2>Breaking Bad</h2></div> 
+          <div className="item"><h2>Death Note</h2></div> 
+          
+        </div>
+        <div className="container">
+          <div className="item"><h2>Game of Thrones</h2></div>
+          <div className="item"><h2>The Walking Dead</h2></div> 
+          <div className="item"><h2>The Wire</h2></div> 
+
+        </div>
+        
 
       </div>
     );
   }
 }
-
+//<img src={moviecover} className="MovieCover"/>
 export default App;
