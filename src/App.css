@@ -37,10 +37,28 @@
 
 .item {
   flex: 1;
+  position:relative;
 }
 
 img {
   width: 100%;
+}
+
+.overlay {
+  opacity: 0;
+  width:100%;
+  position:absolute;
+  font-size:50px;
+  font-weight: bolder;
+  font-family: Verdana;
+  border: 4px solid black;
+  color:white;
+  bottom: 0;
+}
+
+.item:hover .overlay{
+  opacity: 1;
+  
 }
 
 @media only screen and (max-width: 600px) {
