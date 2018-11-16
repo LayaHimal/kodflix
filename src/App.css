@@ -49,6 +49,7 @@ img {
   width:100%;
   position:absolute;
   font-size:80px;
+  justify-content: center;
   font-weight: bolder;
   font-family: Verdana;
   border: 50px solid gray;
